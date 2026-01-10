@@ -4,14 +4,14 @@ class BankAccount {
     String accountNumber;
     int balance;
 
-    // Deposit method
+    
     public void deposit(int amount) {
         balance += amount;
         System.out.println("Amount Deposited Successfully");
         System.out.println("Current Balance: " + balance);
     }
 
-    // Withdraw method
+    
     public void withdraw(int amount) {
         if (amount > balance) {
             System.out.println("Insufficient balance");
